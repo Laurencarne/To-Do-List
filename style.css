@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: "Lucida Console", Monaco, monospace;
+  background: rgb(229, 176, 104);
+  text-align: center;
+}
+
+#task-header {
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  padding: 1rem;
+}
+
+#task-header img {
+  height: 8.5rem;
+  width: auto;
+}
+
+#low {
+  background: rgba(97, 219, 247, 0.6);
+}
+#low:hover {
+  background: rgba(97, 219, 247, 0.2);
+}
+
+#medium {
+  background: rgba(247, 222, 97, 0.6);
+}
+#medium:hover {
+  background: rgba(247, 222, 97, 0.2);
+}
+
+#high {
+  background: rgba(247, 97, 97, 0.6);
+}
+
+#high:hover {
+  background: rgba(247, 97, 97, 0.2);
+}
+
+#completed {
+  background: rgba(109, 242, 143, 0.6);
+}
+
+#completed:hover {
+  background: rgba(109, 242, 143, 0.6);
+}
+
+.card {
+  text-align: center;
+  border: #84c0cf solid 1px;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 70%;
+  height: 1rem;
+  display: inline-block;
+  box-shadow: 3px 4px #84c0cf;
+  margin: 0.5rem;
+}
+
+.card:hover {
+  background: rgba(229, 176, 104, 0.2);
+}
+
+p {
+  position: relative;
+  text-align: inherit;
+  display: inline;
+}
+
+.delete-btn {
+  float: right;
+  border: #84c0cf solid 1px;
+  border-radius: 5px;
+  color: grey;
+  padding: auto;
+  width: auto;
+  height: auto;
+}
+
+.delete-btn:hover {
+  background-color: #df6b5b;
+  color: whitesmoke;
+}
+
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  display: none;
+  opacity: 0.8;
+  display: block;
+}
+
+.add-task-form {
+  width: 80%;
+  align: right;
+  text-align: center;
+  display: inline-block;
+}
+
+.input-submit {
+  position: relative;
+  border-radius: 5px;
+  border: #df6b5b solid 2px;
+  height: 2.4rem;
+  width: max-content;
+  color: grey;
+  font-size: 18px;
+  justify-self: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 3px;
+}
+
+.input-submit:hover {
+  background-color: #df6b5b;
+  border: rgb(229, 176, 104) solid 2px;
+  color: whitesmoke;
+}
+
+.input-text {
+  border-radius: 5px;
+  border: #df6b5b solid 2px;
+  height: 2rem;
+  width: 50%;
+  font-size: 18px;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 3px;
+  margin-right: 0px;
+  padding-right: 0px;
+  display: inline;
+  color: grey;
+}
+
+.select-input {
+  border-radius: 5px;
+  border: #df6b5b solid 2px;
+  height: 2.4rem;
+  width: 30%;
+  font-size: 18px;
+  font-color: grey;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 3px;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: inline;
+  color: grey;
+}

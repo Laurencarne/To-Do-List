@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Book Store</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="task-header">
+      <img
+        src="https://images.vexels.com/media/users/3/151869/isolated/preview/767ca771755f4675d4063c03e17c8595-medical-checklist-icon-by-vexels.png"
+        alt="task-header"
+      />
+    </div>
+
+    <div class="container">
+      <form class="add-task-form" style="">
+        <input
+          type="text"
+          name="task"
+          value=""
+          placeholder="New task..."
+          class="input-text"
+        />
+        <select class="select-input" name="select-priority">
+          <option value="" disabled selected>Priority</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <input type="submit" name="submit" value="Add" class="input-submit" />
+      </form>
+    </div>
+
+    <div id="tasksCollection"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
